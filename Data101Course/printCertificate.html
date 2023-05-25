@@ -1,0 +1,80 @@
+<html>
+<head> </head>
+<body>
+  <div style="background-color:#efefef; height:500px; ">
+<img src="cert_img.jpg" alt="Italian Trulli">
+  </div>
+
+<script type="text/javascript">	/*Get string from URL*/
+  var learner_info = window.location.href.split('?print=')[1];		/*Split string into variables*/
+  var learner_name = learner_info.split('&')[0];
+  var cert_date = learner_info.split('&')[1];		/*Content*/
+  var D = new Date(); /* time? */
+  var hours = D.getHours();/* time? */
+  var minutes = D.getMinutes();/* time? */
+  var ampm = hours >= 12 ? 'pm' : 'am';/* time? new */
+  hours = hours % 12; /* time? new */
+  hours = hours ? hours : 12; // the hour '0' should be '12' /* time? new */
+  minutes = minutes < 10 ? '0'+minutes : minutes; /* time? new */
+  var time = hours + ":" + minutes + ampm;/* time? */
+  document.write('<div id="bigText">' + unescape(learner_name) + '</div>');
+  document.write('<div id="smallText">' + unescape(cert_date) + '</div>');
+  document.write('<div id="tTime">'+time+'</div>') ; /* time? */
+
+
+
+  window.onload = function() { window.print(); }
+</script>
+
+
+
+<style type="text/css" media="print">
+  @page { size: landscape; }
+  @page { margin: none; }
+  @page { font-family: "Uniform",sans-serif !important;}
+</style>
+
+<style>
+@font-face{
+  font-family: "Uniform";
+  src:
+  local('uniform medium.otf') format('opentype'),
+  local('uniform.otf') format('opentype'),
+  local('uniform bold.otf') format('opentype')
+  local('uniform-webfont.woff2') format('woff'),
+  local('uniform-webfont.woff') format('woff');
+  }
+  </style>
+
+<style type="text/css">
+
+
+#bigText{
+  font-size:100px;
+  font-family: "Uniform",sans-serif !important;
+  margin-top: -206px;
+  text-align: center;
+  }
+
+#smallText{
+  font-size:32px;
+  font-family: "Uniform",sans-serif !important;
+  margin-top: 30px;
+  text-align: center;
+  }
+
+#tTime{
+  font-size:24px;
+  font-family: "Uniform",sans-serif !important;
+  margin-top: 5px;  text-align: center;
+  }
+
+
+
+
+
+
+
+  </style>
+</body>
+</html>
