@@ -6,7 +6,7 @@
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none">Data106Course</langstring>
+          <langstring xml:lang="x-none">Data106</langstring>
         </title>
       </general>
       <lifecycle>
@@ -50,11 +50,11 @@
       </rights>
     </lom>
   </metadata>
-  <organizations default="Data106Course_ORG">
-    <organization identifier="Data106Course_ORG">
-      <title>Data106Course</title>
+  <organizations default="Data106_ORG">
+    <organization identifier="Data106_ORG">
+      <title>Data106</title>
       <item identifier="DPWorld_Template_SCO" isvisible="true" identifierref="__5oIybnMavu0_course_id_RES">
-        <title>Data106Course</title>
+        <title>Data106</title>
       </item>
     </organization>
   </organizations>
@@ -62,7 +62,7 @@
     <resource identifier="__5oIybnMavu0_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/6NikFqbysUD_P_0_2_2048_1535.png" />
-      <file href="mobile/6RxbJfOrUun_80.jpg" />
+      <file href="mobile/6SUSx5fskwJ_80.jpg" />
       <file href="meta.xml" />
       <file href="story_content/user.js" />
       <file href="html5/data/css/output.min.css" />
