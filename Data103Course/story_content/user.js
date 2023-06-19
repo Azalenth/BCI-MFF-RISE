@@ -2,22 +2,22 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5t0kjAqIEsO":
+      case "6FOuQp7Zljv":
         Script1();
         break;
-      case "5yklJ4CkZ56":
+      case "5ylcHZcPczL":
         Script2();
         break;
-      case "6P3mSYLo3pa":
+      case "6LKQIo0PJkP":
         Script3();
         break;
-      case "6qBrXm4q8iU":
+      case "5qNabOmBZZ4":
         Script4();
         break;
-      case "5Y3qRjvPVWI":
+      case "61ZQmuCQxfd":
         Script5();
         break;
-      case "5Z8kvfCDlvZ":
+      case "6P9lxeKvGjG":
         Script6();
         break;
   }
@@ -88,7 +88,7 @@ var day = currentDate.getDate()
 var month = currentDate.getMonth() + 1
 var year = currentDate.getFullYear();
 var player = GetPlayer();
-var newName = day + "/" + month + "/" +year
+var newName = month + "/" + day + "/" +year
 
 player.SetVar("DateValue", newName);
 }

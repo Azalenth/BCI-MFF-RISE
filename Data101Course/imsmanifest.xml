@@ -6,7 +6,7 @@
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none">Data101</langstring>
+          <langstring xml:lang="x-none">FinalCert</langstring>
         </title>
       </general>
       <lifecycle>
@@ -50,11 +50,11 @@
       </rights>
     </lom>
   </metadata>
-  <organizations default="Data101_ORG">
-    <organization identifier="Data101_ORG">
-      <title>Data101</title>
+  <organizations default="FinalCert_ORG">
+    <organization identifier="FinalCert_ORG">
+      <title>FinalCert</title>
       <item identifier="DPWorld_Template_SCO" isvisible="true" identifierref="__6BJKB8CcYGl_course_id_RES">
-        <title>Data101</title>
+        <title>FinalCert</title>
       </item>
     </organization>
   </organizations>
@@ -72,7 +72,6 @@
       <file href="html5/data/js/data.js" />
       <file href="html5/data/js/frame.js" />
       <file href="html5/data/js/paths.js" />
-      <file href="html5/lib/hls/hls.min.js" />
       <file href="html5/lib/scripts/bootstrapper.min.js" />
       <file href="html5/lib/scripts/frame.desktop.min.js" />
       <file href="html5/lib/scripts/frame.mobile.min.js" />
